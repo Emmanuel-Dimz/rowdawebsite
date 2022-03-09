@@ -1,0 +1,45 @@
+.project-sec {
+    font-size: 20px;
+    margin: 25px;
+  }
+  
+  p {
+      text-decoration: white;
+      text-align: center;
+  }
+  
+ h1 {
+    /* Center horizontally*/
+    text-align: center;
+  }
+  .project-sec img{
+      width: 800px;
+      height: auto;
+      margin-top: auto;
+  }
+  .project-sec .intro {
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#88941e;
+}
+.project-sec .intro::after {
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: #c4d156;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+  .image-1 {
+    width: 800px;
+    height: 800px;
+    background-size: cover;
+    object-fit: cover;
+}
+  .image-2 {
+      width: 800px;
+      height: 800px;
+      background-size: cover;
+      
+  }
